@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tristan Bossard - Mes projets mobiles</title>
+    <link rel="icon" type="image/svg+xml" href="assets/rocket.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Beckman:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="https://tristanbossard.netlify.app/"
+          ><button class="back-button">← Retour</button></a
+        >
+        <h1>Mes projets mobiles</h1>
+        <p>
+          Découvrez mes applications mobiles interactifs réalisés avec -
+          <em>Flutter, React Native, etc.</em>
+        </p>
+        <div style="position: relative; display: inline-block">
+          <i
+            class="fas fa-search"
+            style="
+              position: absolute;
+              top: 50%;
+              left: 10px;
+              transform: translateY(-50%);
+              color: #aaa;
+            "
+          ></i>
+          <input
+            type="text"
+            id="search-bar"
+            placeholder="Rechercher un projet..."
+            oninput="filterProjects()"
+            style="padding-left: 30px; width: 100%"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="projects" class="projects">
+        <article class="project-card" data-title="Marc, payez et partez !">
+          <img src="assets/marc.png" alt="Marc, payez et partez !" />
+          <div class="project-info">
+            <h2>Marc, payez et partez !</h2>
+            <p>
+              Marc, payez et partez ! 📱 permet de faire ses courses rapidement
+              🛒 et propose des recettes 🍽️ basées sur les produits récupérés en
+              magasin.
+            </p>
+            <div class="buttons-container">
+              <a
+                class="presentation-web"
+                href="https://www.figma.com/proto/g351qI1BC3Mz60ERITvEZt/MARC-APPLICATION?type=design&node-id=88-599&scaling=scale-down&page-id=0%3A1&starting-point-node-id=39%3A132"
+                target="_blank"
+                >Voir le projet</a
+              >
+              <a
+                class="presentation-code"
+                href="https://github.com/yoshiTorisutan-web/MyDigitalProject_Marc"
+                target="_blank"
+                >Voir le code</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-title="Weather App">
+          <img src="assets/weather.png" alt="Weather App" />
+          <div class="project-info">
+            <h2>Weather App</h2>
+            <p>
+              Une Weather App ☀️🌧️ pour consulter la météo en temps réel, avec
+              prévisions détaillées et localisation personnalisée 📍.
+            </p>
+            <div class="buttons-container">
+              <a class="presentation-web" href="" target="_blank"
+                >En cours...</a
+              >
+              <a
+                class="presentation-code"
+                href="https://github.com/yoshiTorisutan-web/weather_app_flutter"
+                target="_blank"
+                >Voir le code</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-title="Search App">
+          <img src="assets/search.png" alt="Search App" />
+          <div class="project-info">
+            <h2>Search App</h2>
+            <p>
+              Une app de recherche d'adresses 🏠📍 pour trouver facilement des
+              informations postales avec localisation rapide et précise.
+            </p>
+            <div class="buttons-container">
+              <a class="presentation-web" href="" target="_blank"
+                >En cours...</a
+              >
+              <a
+                class="presentation-code"
+                href="https://github.com/yoshiTorisutan-web/Search_app_flutter"
+                target="_blank"
+                >Voir le code</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-title="ActiGo">
+          <img src="assets/activity.png" alt="ActiGo" />
+          <div class="project-info">
+            <h2>ActiGo</h2>
+            <p>
+              Une app de réservation d’activités locales 🎟️📍 : liste des
+              activités, réservation en ligne, avis ⭐, notifications 🔔 et
+              cartes interactives 🗺️ (Google Maps API).
+            </p>
+            <div class="buttons-container">
+              <a class="presentation-web" href="" target="_blank"
+                >En cours...</a
+              >
+              <a class="presentation-code" href="" target="_blank"
+                >En cours...</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Tristan Bossard. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+  <div id="popup" class="popup hidden">
+    <p>Bienvenue sur la page de mes projets ! 🚀</p>
+    <p>
+      De nouveaux projets arriveront mensuellement, donc n'hésitez pas à
+      découvrir mes nouvelles créations ✨.
+    </p>
+  </div>
+</html>
