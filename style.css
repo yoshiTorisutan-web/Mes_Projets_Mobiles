@@ -1,8 +1,8 @@
 /* Styles globaux */
 @font-face {
-  font-family: 'Beckman';
-  src: url('./fonts/Beckman-FREE.otf') format('otf'),
-       url('./fonts/Beckman-FREE.otf') format('otf');
+  font-family: "Beckman";
+  src: url("./fonts/Beckman-FREE.otf") format("otf"),
+    url("./fonts/Beckman-FREE.otf") format("otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,8 +20,8 @@ header {
   padding: 3rem 1rem;
   background-image: linear-gradient(
     109.6deg,
-    rgba(61, 131, 97, 1) 11.2%,
-    rgba(28, 103, 88, 1) 91.1%
+    rgba(28, 103, 88, 1) 11.2%,
+    rgba(61, 131, 97, 1) 91.1%
   ); /* Votre dégradé */
   color: white;
 }
@@ -185,8 +185,8 @@ header p {
   color: white;
   background-image: linear-gradient(
     109.6deg,
-    rgba(61, 131, 97, 1) 11.2%,
-    rgba(28, 103, 88, 1) 91.1%
+    rgba(28, 103, 88, 1) 11.2%,
+    rgba(61, 131, 97, 1) 91.1%
   );
   border-radius: 30px;
   text-decoration: none;
