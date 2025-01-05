@@ -1,36 +1,27 @@
-<h1 align="center">Mes projets web</h1>
+<h1 align="center">Mes projets mobiles</h1>
 <div align="center">
   <img src="assets/rocket.png" alt="Logo" width="80" height="80">
 </div>
 
 # Présentation
-Bienvenue sur ma plateforme de projets web ! Ce projet est une plateforme regroupant tous les projets web que j'ai réalisés au cours de mon parcours. Chaque projet est développé avec une variété de langages et de technologies, allant de HTML, CSS, JavaScript à des frameworks comme React, ainsi que des outils de gestion de projet et des API.
+Bienvenue sur ma plateforme de projets mobiles ! Ce projet est une plateforme regroupant tous les projets web que j'ai réalisés au cours de mon parcours. Chaque projet est développé avec une variété de langages et de technologies, allant de Flutter à des frameworks comme React Native, ainsi que des outils de gestion de projet et des API.
 
 ## 💡 Objectif
 
-Cette plateforme a pour but de démontrer mon expertise et mes compétences en développement web, tout en présentant des projets variés que j'ai réalisés dans le cadre de mes études, de mes projets personnels et professionnels. Vous pouvez naviguer à travers mes différents projets et voir l'évolution de mon travail dans le domaine du digital.
+Cette plateforme a pour but de démontrer mon expertise et mes compétences en développement mobile, tout en présentant des projets variés que j'ai réalisés dans le cadre de mes études, de mes projets personnels et professionnels. Vous pouvez naviguer à travers mes différents projets et voir l'évolution de mon travail dans le domaine du digital.
 
 ## 🔧 Technologies Utilisées
 
 Voici un aperçu des technologies et langages que j'ai utilisés dans mes projets :
 
-- **Frontend :**
-  - HTML5
-  - CSS3 (avec Flexbox, Grid, et SASS)
-  - JavaScript (Vanilla JS, React, Angular)
-  - Frameworks et bibliothèques : React, Angular, VueJS, SolidJS, etc.
-  
-- **Backend :**
-  - Node.js
-  - Express.js (pour certains projets)
-  - API RESTful
-  - C#
-  - Python
-  - PHP
+- **Mobile :**
+  - Flutter
+  - React Native
 
 - **Bases de données :**
-  - MySQL
   - Supabase
+  - Firebase
+  - NoSQL
 
 - **Autres outils :**
   - Git & GitHub
